@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.sp1{
+    color:rgb(223, 35, 129);
+}
+.sp2{
+    color:rgb(142, 19, 190);
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.linkedin{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(174, 0, 255),rgb(255, 60, 0));
+    padding: 10px 40px;
+    border-radius:50px;
+    color:aliceblue;
+}
+.linkedin:hover{
+    background-image: linear-gradient(rgb(204, 0, 255),rgb(4, 0, 255));
+    color: rgb(231, 210, 17);
+    font-weight: bold;
+}.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
