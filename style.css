@@ -4,10 +4,11 @@ body {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 3vw;
+    font-weight:700;
 }
 h3{
-    font-size:3vw;
+    font-size:2vw;
 }
 p{
     font-size:1vw;
@@ -22,8 +23,9 @@ p{
     color: rgb(142, 19, 190);
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -57,8 +59,13 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    padding-top: 180px;
+    padding-bottom: vh;
 }
 .dreem{
    text-align: justify;
+   padding-right: 2%;;
+
+}
+.dreem p{
+    width: 100%;
 }
